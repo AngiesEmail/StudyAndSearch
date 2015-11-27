@@ -81,6 +81,7 @@
 		680833751C08259900CC571F /* StudyAndSearchSecond */ = {
 			isa = PBXGroup;
 			children = (
+				6808339F1C08685100CC571F /* base */,
 				6808337A1C08259900CC571F /* AppDelegate.h */,
 				6808337B1C08259900CC571F /* AppDelegate.m */,
 				6808337D1C08259900CC571F /* ViewController.h */,
@@ -117,6 +118,13 @@
 				680833911C08259900CC571F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6808339F1C08685100CC571F /* base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +420,7 @@
 				680833981C08259900CC571F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		680833991C08259900CC571F /* Build configuration list for PBXNativeTarget "StudyAndSearchSecondTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				6808339B1C08259900CC571F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

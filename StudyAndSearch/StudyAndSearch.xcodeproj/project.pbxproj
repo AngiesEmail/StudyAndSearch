@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		680833641C0824F400CC571F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680833631C0824F400CC571F /* main.cpp */; };
+		680833A31C08692800CC571F /* KXRef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680833A11C08692800CC571F /* KXRef.cpp */; };
+		680833A61C08697C00CC571F /* KXAutoreleasePool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 680833A41C08697C00CC571F /* KXAutoreleasePool.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		680833601C0824F400CC571F /* StudyAndSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyAndSearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		680833631C0824F400CC571F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		680833A11C08692800CC571F /* KXRef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KXRef.cpp; sourceTree = "<group>"; };
+		680833A21C08692800CC571F /* KXRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXRef.h; sourceTree = "<group>"; };
+		680833A41C08697C00CC571F /* KXAutoreleasePool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KXAutoreleasePool.cpp; sourceTree = "<group>"; };
+		680833A51C08697C00CC571F /* KXAutoreleasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXAutoreleasePool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,21 @@
 		680833621C0824F400CC571F /* StudyAndSearch */ = {
 			isa = PBXGroup;
 			children = (
+				680833A01C08690100CC571F /* base */,
 				680833631C0824F400CC571F /* main.cpp */,
 			);
 			path = StudyAndSearch;
+			sourceTree = "<group>";
+		};
+		680833A01C08690100CC571F /* base */ = {
+			isa = PBXGroup;
+			children = (
+				680833A11C08692800CC571F /* KXRef.cpp */,
+				680833A21C08692800CC571F /* KXRef.h */,
+				680833A41C08697C00CC571F /* KXAutoreleasePool.cpp */,
+				680833A51C08697C00CC571F /* KXAutoreleasePool.h */,
+			);
+			path = base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680833A31C08692800CC571F /* KXRef.cpp in Sources */,
 				680833641C0824F400CC571F /* main.cpp in Sources */,
+				680833A61C08697C00CC571F /* KXAutoreleasePool.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +252,7 @@
 				680833691C0824F400CC571F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
