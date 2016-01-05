@@ -1,7 +1,7 @@
 {
-	"packageUrl" : "https://raw.github.com/AngiesEmail/StudyAndSearch/master/project",
-	"remoteManifestUrl" :  "https://raw.github.com/AngiesEmail/StudyAndSearch/master/project.manifest",
-	"remoteVersionUrl" :"https://raw.github.com/AngiesEmail/StudyAndSearch/master/version.manifest",
+	"packageUrl" : "http://raw.github.com/AngiesEmail/StudyAndSearch/master/project",
+	"remoteManifestUrl" :  "http://raw.github.com/AngiesEmail/StudyAndSearch/master/project.manifest",
+	"remoteVersionUrl" :"http://raw.github.com/AngiesEmail/StudyAndSearch/master/version.manifest",
 	"version" : "1.0.0",
 	"engineVersion" : "3.0 beta",
 
