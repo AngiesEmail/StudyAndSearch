@@ -1,0 +1,16 @@
+{
+	"packageUrl" : "https://raw.github.com/AngiesEmail/StudyAndSearch/master/main.zip",
+	"remoteManifestUrl" :  "https://raw.github.com/AngiesEmail/StudyAndSearch/master/main.zip",
+	"remoteVersionUrl" :"https://raw.github.com/AngiesEmail/StudyAndSearch/master/version",
+	"version" : "1.0.0",
+	"engineVersion" : "3.0 beta",
+
+	"assets" : {
+		"Images/background1.jpg" : {
+			"md5" : "..."
+		}
+	},
+    
+    "searchPaths" : [
+    ]
+}
