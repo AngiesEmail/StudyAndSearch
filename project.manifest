@@ -1,7 +1,7 @@
 {
-	"packageUrl" : "http://example.com/assets_manager/TestScene/",
-    "remoteVersionUrl" : "http://example.com/assets_manager/TestScene/version.manifest",
-    "remoteManifestUrl" : "http://example.com/assets_manager/TestScene/project.manifest",
+	"packageUrl" : "https://raw.github.com/AngiesEmail/StudyAndSearch/master/project",
+	"remoteManifestUrl" :  "https://raw.github.com/AngiesEmail/StudyAndSearch/master/project.manifest",
+	"remoteVersionUrl" :"https://raw.github.com/AngiesEmail/StudyAndSearch/master/version.manifest",
 	"version" : "1.0.0",
 	"engineVersion" : "3.0 beta",
 
